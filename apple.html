@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  *{
+    margin:0;
+    box-sizing:border-box;
+  }
+  .wrap{
+    width:500px;
+    height:1000px;
+    margin: 0 auto;
+    /* background-color: bisque; */
+  }
+  .image_box{
+    width:100%;
+    height:300px;
+    background-image: url(./img/images.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 145px;
+    margin-top: 10px;
+    /* overflow: hidden; */
+  }
+  .black{
+    background-color: rgba(0, 0, 0, 0.458);
+    padding: 30px;
+  }
+  .white{
+    color: white;
+    font-weight: bold;
+  }
+  .f_yellow{
+    color: yellow;
+  }
+
+  .tbl_top{
+    width:100%;
+    padding: 10px;
+    background-color: black;
+    color:white;
+    text-align: left;
+  }
+  .box_1{
+    width:100%;
+    height:150px;
+    border: 1px solid black;
+    text-align: center;
+  }
+  h3{
+    color:red;
+    margin: 20px 0;
+  }
+  span{
+    color:blue;
+    font-weight: bold;
+  }
+  .grey_bg{
+    font-size: 0.7em;
+  }
+  p{
+    margin: 10px 0;
+  }
+  .p_bold{
+    font-weight: bold;
+  }
+  table, tr,td{
+    width:100%;
+    border: 1px solid black;
+    border-collapse: collapse; 
+    text-align: center;
+  }
+
+  /*테이블로 만들기*/
+  .box_2{
+    width:100%;
+    height:150px;
+    border: 1px solid black;
+    /* background-color: beige; */
+  }
+  .tbl_top2{
+    width:100%;
+    padding: 10px;
+    background-color: black;
+    color:white;
+    text-align: left;
+    margin-top: 10px;
+  }
+</style>
+<body>
+  <div class="wrap">
+
+<div class="image_box">
+    <div class="black">
+      <h2 class="white">가정용 꿀 사과</h2>
+      <p class="f_yellow">흠집이 있고 약간은 못생겼지만 맛과 영양은 그대로입니다. <br> 질 좋은 사과를 저렴하게 즐겨보세요.</p>
+    </div>
+</div>
+
+<div>
+  <div class="tbl_top">확인하세요</div>
+  <div class="box_1">
+    <h3>주문 및 배송</h3>
+    <p><span> 오후 2시 이전</span>주문건은 당일 발송합니다.</p>
+    <p>2시 이후 주문건은 다음날 발송합니다(주말 제외)</p>
+  </div>
+  <div class="box_1">
+    <h3>교환 및 환불</h3>
+    <p>불만족시<span>100% 환불</span>주문건은 당일 발송합니다.</p>
+    <p>고객센터로 전화주세요</p>
+  </div>
+  <div class="box_1">
+    <h3>고객센터</h3>
+    <p><span class="p_bold">0000-0000</span></p>
+    <p class="grey_bg">상담시간: 오전 9시 ~ 오후 6시(토/일, 공휴일 휴무)</p>
+  </div>
+
+
+<div class="image_box">
+    <div class="black">
+      <h2 class="white">가정용 꿀 사과</h2>
+      <p class="f_yellow">흠집이 있고 약간은 못생겼지만 맛과 영양은 그대로입니다. <br> 질 좋은 사과를 저렴하게 즐겨보세요.</p>
+    </div>
+</div>
+
+<h4 class="tbl_top2">확인하세요</h4>
+<table>
+  <!-- <tr><td>확인하세요</td></tr> -->
+  <tr class="box_2">
+    <td>
+      <h3>주문 및 배송</h3>
+      <p><span> 오후 2시 이전</span>주문건은 당일 발송합니다.</p>
+      <p>2시 이후 주문건은 다음날 발송합니다(주말 제외)</p>
+    </td>
+  </tr>
+
+  <tr class="box_2">
+    <td>
+      <h3>교환 및 환불</h3>
+      <p>불만족시<span>100% 환불</span>주문건은 당일 발송합니다.</p>
+      <p>고객센터로 전화주세요</p>
+    </td>
+  </tr>
+
+  <tr class="box_2">
+    <td>
+      <h3>고객센터</h3>
+      <p><span class="p_bold">0000-0000</span></p>
+      <p class="grey_bg">상담시간: 오전 9시 ~ 오후 6시(토/일, 공휴일 휴무)</p>
+    </td>
+  </tr>
+</table>
+</div>
+
+
+  </div>
+</body>
+</html>
